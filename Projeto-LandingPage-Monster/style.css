@@ -93,10 +93,10 @@ body {
 
 .rodape-titulo {
     border-top: 1px solid #151515;
-    padding-top: 10px;
+    padding-top: 15px;
     font-size: 2em;
     margin-bottom: 15px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: bolder;
 }
 
