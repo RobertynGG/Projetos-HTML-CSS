@@ -3,4 +3,84 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.corpo {
+    margin: 20px;
+}
+
+.corpo-visor {
+    text-align: right;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+.corpo-visor-texto {
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 3em;
+}
+
+.corpo-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.corpo-grupo-botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.corpo-botao {
+    border: none;
+    background-color: #4e4e4e;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.corpo-botao-cinza {
+    border: none;
+    background-color: #a5a5a5;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.corpo-botao-laranja {
+    border: none;
+    background-color: #df853c;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+#corpo-botao-0 {
+    width: 111.2px;
+    border-radius: 40px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#corpo-botao-X {
+    font-size: 1em;
+}
+
+.corpo-botao:on {
+    color: black;
 }
